@@ -1,7 +1,8 @@
 function increment(n) {
-  return n++;
+  return n + 1;
 }
 
+console.log(increment(1))
 module.exports = { increment };
 
 // Remember to check the expected behaviour of this program first
